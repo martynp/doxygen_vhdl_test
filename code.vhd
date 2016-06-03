@@ -59,7 +59,7 @@ entity c_module is
 	port ( 	c_in : in std_logic; 	--! c input
 			c_out : out std_logic	--! c output
 	);
-end b_module;
+end c_module;
 
 --! @brief Architecture of c_module
 architecture behavioral of c_module is
